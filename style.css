@@ -343,7 +343,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   gap: 80px;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .newsletter-text h1 {
@@ -363,14 +363,14 @@ a {
 }
 
 .newsletter-assinar input {
-  border: 3px solid #103CCC;
+  border: 3px solid #2c70ff;
   width: 350px;
   padding: 10px 5px;
   font-size: 1.5rem;
 }
 
 .newsletter-assinar a {
-  background-color: #103CCC;
+  background-color: #2c70ff;
   color: white;
   font-weight: 600;
   text-transform: uppercase;
@@ -378,4 +378,16 @@ a {
   width: 250px;
   padding: 10px 0;
   text-align: center;
+}
+
+.footer {
+  background-color: #2c70ff;
+  padding: 60px;
+}
+
+.footer p {
+  text-align: center;
+  color: #122ab2;
+  font-size: 2rem;
+
 }
