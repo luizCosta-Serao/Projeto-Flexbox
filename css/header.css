@@ -16,6 +16,7 @@
 
 .hd-content ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -27,3 +28,9 @@
 .hd-content ul li a:hover {
   color: #040F33;
 }
+
+@media (max-width:678px) {
+  .hd-content {
+    flex-direction: column;
+  }
+} 

@@ -4,10 +4,22 @@
 
 .info ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .info ul li {
   color: #ffffff;
   font-size: 1.125rem;
+}
+
+@media (max-width:800px) {
+  .info ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info ul li {
+    margin: 5px 0;
+  }
 }

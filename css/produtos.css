@@ -51,3 +51,13 @@
   background-color: #66d9eb;
   display: block;
 }
+
+@media (max-width:768px) {
+  .produtos-content {
+    flex-wrap: wrap;
+  }
+
+  .produto-item {
+    flex: 1;
+  }
+}

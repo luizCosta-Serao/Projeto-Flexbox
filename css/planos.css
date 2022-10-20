@@ -1,6 +1,7 @@
 .opcoes-planos {
   background-color:  #f7f7f7;
   display: flex;
+  flex-wrap: wrap;
   gap: 45px;
   padding: 90px;
   align-items: flex-end;
@@ -11,23 +12,14 @@
   border: 4px solid white;
   flex: 1;
   padding: 20px;
+  position: relative;
 }
 
 .plano h1 {
   color: #a4a4a4;
   font-weight: 600;
   font-size: 3rem;
-  position: relative;
-}
-
-.plano h1::after {
-  content: "";
-  width: 200px;
-  height: 4px;
-  display: block;
-  background-color: white;
-  position: absolute;
-  left: 80px;
+  border-bottom: 4px solid white;
 }
 
 .plano span {
@@ -39,22 +31,12 @@
   position: relative;
 }
 
-.plano span::after {
-  content: "";
-  width: 200px;
-  height: 4px;
-  display: block;
-  background-color: white;
-  position: absolute;
-  left: -60px;
-  margin-top: 20px;
-}
-
 .plano p {
   margin: 20px 0;
   font-size: 3rem;
   font-weight: 600;
   color: #1a1a1a;
+  border-bottom: 4px solid white;
 }
 
 .plano ul li {
@@ -63,6 +45,7 @@
   font-style: italic;
   padding: 10px 0;
   position: relative;
+  text-align: left;
 }
 
 .plano ul li::after {
@@ -74,7 +57,7 @@
   display: inline-block;
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 20px;
 }
 
 .plano a {
@@ -87,4 +70,22 @@
   font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+  .plano {
+    max-width: 100%;
+  }
+
+  .plano h1 {
+    font-size: 2rem;
+  }
+
+  .plano a {
+    font-size: .9rem;
+  }
+
+  .plano ul li::after {
+    display: none;
+  }
 }

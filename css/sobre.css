@@ -42,3 +42,23 @@
 .sobre-img img:nth-child(2) {
   height: 250px;
 }
+
+@media (max-width:678px) {
+  .sobre {
+    flex-direction: column;
+  }
+
+  .sobre::after {
+    display: none;
+  }
+
+  .sobre-img {
+    justify-content: center;
+  }
+}
+
+@media (max-width:460px) {
+  .sobre-img {
+    flex-direction: column;
+  }
+}

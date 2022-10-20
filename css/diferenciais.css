@@ -15,7 +15,7 @@
   font-size: 2rem;
   font-weight: 600;
   position: relative;
-  left: 15px;
+  padding-left: 15px;
 }
 
 .diferencial-item:nth-child(1) h1::before,
@@ -26,7 +26,7 @@
   background-color: #ae81ff;
   display: inline-block;
   position: absolute;
-  left: -15px;
+  left: 3px;
   top: 5px;
 }
 
@@ -38,7 +38,7 @@
   background-color: #f9265e;
   display: inline-block;
   position: absolute;
-  left: -15px;
+  left: 3px;
   top: 5px;
 }
 
@@ -50,7 +50,7 @@
   background-color: #66d9eb;
   display: inline-block;
   position: absolute;
-  left: -15px;
+  left: 3px;
   top: 5px;
 }
 

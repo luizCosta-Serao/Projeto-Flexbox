@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 80px;
-  padding: 50px 0;
+  padding: 50px 10px;
 }
 
 .newsletter-text h1 {
@@ -24,11 +24,12 @@
 
 .newsletter-assinar {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .newsletter-assinar input {
   border: 3px solid #2c70ff;
-  width: 350px;
+  max-width: 300px;
   padding: 10px 5px;
   font-size: 1.5rem;
 }
@@ -39,7 +40,25 @@
   font-weight: 600;
   text-transform: uppercase;
   font-size: 2.5rem;
-  width: 250px;
-  padding: 10px 0;
+  max-width: 300px;
+  padding: 10px 10px;
   text-align: center;
+}
+
+@media (max-width:768px) {
+  .newsletter {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .newsletter-assinar {
+    justify-content: center;
+    max-width: 100%;
+  }
+}
+
+@media (max-width:400px) {
+  .newsletter-assinar input {
+    max-width: 100%;
+  }
 }
