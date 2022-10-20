@@ -1,0 +1,29 @@
+/*ESTILOS GERAIS*/
+@import "./gerais.css";
+
+/*INFO*/
+@import "./info.css";
+
+/*HEADER*/
+@import "./header.css";
+
+/*TEXT-INTRODUCAO*/
+@import "./text-introducao.css";
+
+/*SOBRE*/
+@import "./sobre.css";
+
+/*PRODUTOS*/
+@import "./produtos.css";
+
+/*PLANOS*/
+@import "./planos.css";
+
+/*DIFERENCIAIS*/
+@import "./diferenciais.css";
+
+/*NEWSLETTER*/
+@import "./newsletter.css";
+
+/*FOOTER*/
+@import "./footer.css";

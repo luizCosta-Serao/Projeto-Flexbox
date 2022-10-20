@@ -1,0 +1,90 @@
+.opcoes-planos {
+  background-color:  #f7f7f7;
+  display: flex;
+  gap: 45px;
+  padding: 90px;
+  align-items: flex-end;
+}
+
+.plano {
+  text-align: center;
+  border: 4px solid white;
+  flex: 1;
+  padding: 20px;
+}
+
+.plano h1 {
+  color: #a4a4a4;
+  font-weight: 600;
+  font-size: 3rem;
+  position: relative;
+}
+
+.plano h1::after {
+  content: "";
+  width: 200px;
+  height: 4px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  left: 80px;
+}
+
+.plano span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  top: -15px;
+  color: #1a1a1a;
+  position: relative;
+}
+
+.plano span::after {
+  content: "";
+  width: 200px;
+  height: 4px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  left: -60px;
+  margin-top: 20px;
+}
+
+.plano p {
+  margin: 20px 0;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.plano ul li {
+  color: #7c7c7c;
+  font-size: 1.125rem;
+  font-style: italic;
+  padding: 10px 0;
+  position: relative;
+}
+
+.plano ul li::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #103CCC;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.plano a {
+  display: block;
+  padding: 15px 10px;
+  margin-top: 30px;
+  border: 5px solid #1A1A1A;
+  color: #1A1A1A;
+  background-color: transparent;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

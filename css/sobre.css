@@ -1,0 +1,48 @@
+.sobre {
+  display: flex;
+  gap: 15px;
+}
+
+.sobre::after {
+  content: "";
+  max-width: 960px;
+  height: 2px;
+  background-color: #103CCC;
+  display: block;
+  margin-top: 30px;
+}
+
+.sobre-text {
+  flex: 1;
+}
+
+.sobre-text h1 {
+  padding-bottom: 30px;
+  font-size: 3rem;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.sobre-text p {
+  padding-right: 20px;
+  color: #808080;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.sobre-text p + p {
+  padding: 25px 20px 0 0;
+}
+
+.sobre-img {
+  display: flex;
+  gap: 10px;
+}
+
+.sobre-img img:nth-child(1) {
+  
+}
+
+.sobre-img img:nth-child(2) {
+  height: 250px;
+}

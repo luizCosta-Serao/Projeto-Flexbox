@@ -1,0 +1,61 @@
+.diferenciais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.diferencial-item {
+  max-width: 300px;
+}
+
+.diferencial-item h1 {
+  color: #a4a4a4;
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  left: 15px;
+}
+
+.diferencial-item:nth-child(1) h1::before,
+.diferencial-item:nth-child(4) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #ae81ff;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item:nth-child(2) h1::before,
+.diferencial-item:nth-child(5) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #f9265e;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item:nth-child(3) h1::before,
+.diferencial-item:nth-child(6) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #66d9eb;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item p {
+  color: #7c7c7c;
+  padding: 15px 0;
+  font-size: 1.125rem;
+}

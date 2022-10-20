@@ -1,0 +1,13 @@
+ .info {
+  background: #103CCC;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info ul li {
+  color: #ffffff;
+  font-size: 1.125rem;
+}

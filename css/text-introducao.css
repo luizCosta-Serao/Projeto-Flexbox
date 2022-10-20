@@ -1,0 +1,18 @@
+.text-introducao {
+  padding: 40px 10px;
+}
+
+.text-introducao::after {
+  content: "";
+  max-width: 960px;
+  height: 2px;
+  background-color: #103CCC;
+  display: block;
+  margin-top: 30px;
+}
+
+.text-introducao h1 {
+  color: #1A1A1A;
+  font-weight: 600;
+  font-size: 3rem
+}
