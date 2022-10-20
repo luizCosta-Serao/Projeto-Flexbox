@@ -271,3 +271,111 @@ a {
   font-weight: 600;
   text-transform: uppercase;
 }
+
+.diferenciais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.diferencial-item {
+  max-width: 300px;
+}
+
+.diferencial-item h1 {
+  color: #a4a4a4;
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  left: 15px;
+}
+
+.diferencial-item:nth-child(1) h1::before,
+.diferencial-item:nth-child(4) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #ae81ff;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item:nth-child(2) h1::before,
+.diferencial-item:nth-child(5) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #f9265e;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item:nth-child(3) h1::before,
+.diferencial-item:nth-child(6) h1::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #66d9eb;
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.diferencial-item p {
+  color: #7c7c7c;
+  padding: 15px 0;
+  font-size: 1.125rem;
+}
+
+.newsletter-bg {
+  background-color:#f7f7f7 ;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+  padding: 30px 0;
+}
+
+.newsletter-text h1 {
+  font-size: 3rem;
+  color: #a4a4a4;
+  font-weight: 600;
+}
+
+.newsletter-text p {
+  font-size: 1.125rem;
+  color: #a7a7a7;
+  max-width: 300px;
+}
+
+.newsletter-assinar {
+  display: flex;
+}
+
+.newsletter-assinar input {
+  border: 3px solid #103CCC;
+  width: 350px;
+  padding: 10px 5px;
+  font-size: 1.5rem;
+}
+
+.newsletter-assinar a {
+  background-color: #103CCC;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  width: 250px;
+  padding: 10px 0;
+  text-align: center;
+}
