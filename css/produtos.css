@@ -32,6 +32,22 @@
   content: "";
   width: 100%;
   height: 8px;
-  background-color: purple;
+  background-color: #ae81ff;
+  display: block;
+}
+
+.produto-item:nth-child(2)::before {
+  content: "";
+  width: 100%;
+  height: 8px;
+  background-color: #f9265e;
+  display: block;
+}
+
+.produto-item:nth-child(3)::before {
+  content: "";
+  width: 100%;
+  height: 8px;
+  background-color: #66d9eb;
   display: block;
 }
